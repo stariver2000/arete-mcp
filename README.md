@@ -1,5 +1,7 @@
 # AI 뭐 쓰지? MCP 서버
 
+[![AI 뭐 쓰지? MCP connector](https://glama.ai/mcp/connectors/kr.ai.arete/arete/badges/score.svg)](https://glama.ai/mcp/connectors/kr.ai.arete/arete)
+
 > 하려는 일을 말하면, 그 일에 쓸 AI 를 찾아 줍니다.
 
 **AI 뭐 쓰지?**([arete.ai.kr](https://arete.ai.kr))는 AI 앱·에이전트·Skill·MCP 서버를 할 일과 분야별로 모아 둔 한국어 디렉터리입니다. 이 저장소는 그 디렉터리를 ChatGPT·Claude 같은 AI 가 직접 찾아 쓸 수 있게 여는 **원격 MCP 서버**의 소스입니다.

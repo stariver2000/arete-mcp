@@ -1,0 +1,40 @@
+{
+  "version": "0.4.4",
+  "protocol_versions": [
+    "2024-11-05",
+    "2025-03-26",
+    "2025-06-18",
+    "2025-11-25",
+    "2026-07-28"
+  ],
+  "handshake_protocol_versions": [
+    "2024-11-05",
+    "2025-03-26",
+    "2025-06-18",
+    "2025-11-25"
+  ],
+  "pydantic_version": "2.14",
+  "error_en": {
+    "item_not_found": "Item not found",
+    "item_moved": "Item moved",
+    "item_gone": "Item no longer listed",
+    "invalid_field": "Invalid argument",
+    "depth_limit": "Beyond the listing depth limit",
+    "not_found": "Not found",
+    "upstream_unavailable": "The AI 뭐 쓰지? server is briefly unreachable"
+  },
+  "key_refused": {
+    "scope_missing": "이 키에는 원격 MCP 권한(mcp:connect)이 없습니다. /connect 에서 새 키를 만드세요. / This key lacks mcp:connect; create a new key at /connect.",
+    "account_suspended": "정지된 계정의 키입니다. / This key belongs to a suspended account.",
+    "age14_required": "만 14세 이상 확인 기록이 있는 계정의 키만 쓸 수 있습니다. / Keys need an age-confirmed (14+) account."
+  },
+  "fields_ttl_seconds": 600,
+  "upstream_retry_seconds": 5,
+  "limits": {
+    "per_minute": 30,
+    "per_day": 300,
+    "total_per_minute": 300,
+    "shared_per_minute": 200,
+    "group_factor": 3
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "body": "{\"$schema\":\"https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json\",\"name\":\"kr.ai.arete/arete\",\"version\":\"0.4.4\",\"title\":\"AI 뭐 쓰지? (arete.ai.kr)\",\"description\":\"Find AI apps, agents, Skills and MCP servers for a task. Korean directory, ranked by field.\",\"websiteUrl\":\"https://arete.ai.kr/connect\",\"icons\":[{\"src\":\"https://arete.ai.kr/icons/icon-192.png\",\"mimeType\":\"image/png\",\"sizes\":[\"192x192\"]}],\"remotes\":[{\"type\":\"streamable-http\",\"url\":\"https://arete.ai.kr/connect/mcp\",\"supportedProtocolVersions\":[\"2024-11-05\",\"2025-03-26\",\"2025-06-18\",\"2025-11-25\",\"2026-07-28\"]}]}",
+  "etag": "\"e682429ab0c6f072b20fd107071ea1af\"",
+  "content_type": "application/mcp-server-card+json"
+}

@@ -1,0 +1,4 @@
+# 툴체인 고정: 1.99.0 (2026-10-01)
+[toolchain]
+channel = "1.99.0"
+profile = "minimal"

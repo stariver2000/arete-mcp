@@ -1,0 +1,4 @@
+{
+  "body": "{\"specVersion\":\"0.9\",\"host\":{\"displayName\":\"AI 뭐 쓰지? (arete.ai.kr)\",\"identifier\":\"arete.ai.kr\",\"documentationUrl\":\"https://arete.ai.kr/connect\"},\"entries\":[{\"identifier\":\"urn:air:arete.ai.kr:arete:mcp\",\"type\":\"application/mcp-server-card+json\",\"url\":\"https://arete.ai.kr/connect/mcp/server-card\"}]}",
+  "content_type": "application/ai-catalog+json"
+}

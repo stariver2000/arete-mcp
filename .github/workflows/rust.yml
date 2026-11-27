@@ -1,0 +1,24 @@
+# 형식·lint·시험과 의존성 보안 공지(RustSec) 확인. 툴체인은 rust-toolchain.toml 이 고른다.
+name: rust
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  schedule:
+    - cron: "17 3 * * 1"  # 매주 월요일: 코드가 그대로여도 새 보안 공지가 나올 수 있다
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - run: rustup show active-toolchain || rustup toolchain install
+      - run: rustup component add rustfmt clippy
+      - run: cargo fmt --check
+      - run: cargo clippy --locked --release --all-targets -- -D warnings
+      - run: cargo test --locked --release
+      - name: cargo audit (RustSec)
+        run: |
+          cargo install cargo-audit --version =0.23.0 --locked
+          cargo audit --deny warnings

@@ -1,0 +1,6 @@
+# cargo audit 설정 (CI .github/workflows/rust.yml 이 `cargo audit --deny warnings` 로 돌린다).
+[advisories]
+# RUSTSEC-2026-0592 (url < 2.5.9, 겹친 blob: 주소의 Url::origin() 스택 넘침): 이 크레이트도, 쓰는 reqwest·tower-http 도 origin() 을 부르지 않고
+# 주소는 우리 API 의 http 주소로만 짓는다. 고친 2.5.9 는 2026-11-20 에 나와 아직 2주가 안 됐다 (판은 나온 지 2주가 지난 것을 쓴다).
+# 2026-12-04 에 url 을 2.5.9 로 올리고 이 줄을 지운다.
+ignore = ["RUSTSEC-2026-0592"]

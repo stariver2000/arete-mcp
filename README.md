@@ -1,6 +1,11 @@
 # AI 뭐 쓰지? MCP 서버
 
 [![AI 뭐 쓰지? MCP connector](https://glama.ai/mcp/connectors/kr.ai.arete/arete/badges/score.svg)](https://glama.ai/mcp/connectors/kr.ai.arete/arete)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-kr.ai.arete%2Farete-blue)](https://registry.modelcontextprotocol.io/v0/servers?search=kr.ai.arete)
+[![release](https://img.shields.io/github/v/release/stariver2000/arete-mcp)](https://github.com/stariver2000/arete-mcp/releases)
+[![rust](https://github.com/stariver2000/arete-mcp/actions/workflows/rust.yml/badge.svg)](https://github.com/stariver2000/arete-mcp/actions/workflows/rust.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/stariver2000/arete-mcp/badge)](https://scorecard.dev/viewer/?uri=github.com/stariver2000/arete-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > 하려는 일을 말하면, 그 일에 쓸 AI 를 찾아 줍니다.
 

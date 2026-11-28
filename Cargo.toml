@@ -2,7 +2,7 @@
 # 판은 정확히 고정한다. 짓기는 `cargo build --locked --release` 로만.
 [package]
 name = "arete-mcp-rs"
-version = "0.5.0"
+version = "0.5.1"
 edition = "2024"
 rust-version = "1.99"
 publish = false
